@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.7.12)  30 JUL 2019 23:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.7.12)  31 JUL 2019 00:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1544,7 +1544,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 269.
 Package rerunfilecheck Info: File `second_year_report.out' has not changed.
-(rerunfilecheck)             Checksum: 44C0066AA3F3A88A7DEFFC4210BADED5;426.
+(rerunfilecheck)             Checksum: 5EEE242054A16A0BCAF649940854B6F4;427.
 
 
 LaTeX Warning: There were undefined references.
@@ -1554,11 +1554,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 269.
 Here is how much of TeX's memory you used:
  20378 strings out of 492649
  377208 string characters out of 6135778
- 456868 words of memory out of 5000000
+ 459868 words of memory out of 5000000
  23976 multiletter control sequences out of 15000+600000
  545621 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,11n,43p,10391b,1026s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,43p,10391b,1024s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/a
@@ -1570,7 +1570,7 @@ t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type
 onts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/cbfonts/gsmn1000.pfb>
-Output written on second_year_report.pdf (4 pages, 197379 bytes).
+Output written on second_year_report.pdf (4 pages, 197403 bytes).
 PDF statistics:
  198 PDF objects out of 1000 (max. 8388607)
  176 compressed objects within 2 object streams
