@@ -1,0 +1,272 @@
+
+% ****** Start of file apstemplate.tex ****** %
+%%
+%%
+%%   This file is part of the APS files in the REVTeX 4.2 distribution.
+%%   Version 4.2a of REVTeX, January, 2015
+%%
+%%
+%%   Copyright (c) 2015 The American Physical Society.
+%%
+%%   See the REVTeX 4 README file for restrictions and more information.
+%%
+%
+% This is a template for producing manuscripts for use with REVTEX 4.2
+% Copy this file to another name and then work on that file.
+% That way, you always have this original template file to use.
+%
+% Group addresses by affiliation; use superscriptaddress for long
+% author lists, or if there are many overlapping affiliations.
+% For Phys. Rev. appearance, change preprint to twocolumn.
+% Choose pra, prb, prc, prd, pre, prl, prstab, prstper, or rmp for journal
+%  Add 'draft' option to mark overfull boxes with black boxes
+%  Add 'showkeys' option to make keywords appear
+\documentclass[twoside]{report}
+
+\usepackage[bindingoffset=6mm,paperwidth=210mm,paperheight=297mm,centering,hmargin=2cm,vmargin=2.5cm]{geometry}
+%\documentclass[aps,prd,reprint,superscriptaddress,nofootinbib]{revtex4-2}
+%\documentclass[aps,prl,preprint,superscriptaddress]{revtex4-2}
+%\documentclass[aps,prl,reprint,groupedaddress]{revtex4-2}
+\usepackage{parskip}
+\usepackage[hyphenbreaks]{breakurl}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{hhline}
+%\usepackage[fleqn]{amsmath}
+\usepackage{amsmath}
+%\usepackage[usestackEOL]{stackengine}
+\usepackage{bm}
+\usepackage[utf8]{inputenc}
+\usepackage{dirtytalk}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{siunitx}
+\usepackage{textgreek}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{pifont}
+\usepackage[colorlinks = true,
+            linkcolor = orange,
+            urlcolor  = blue,
+            citecolor = purple,
+            anchorcolor = blue]{hyperref}
+\newcommand{\vect}[1]{\boldsymbol{\mathbf{#1}}}
+% You should use BibTeX and apsrev.bst for references
+% Choosing a journal automatically selects the correct APS
+% BibTeX style file (bst file), so only uncomment the line
+% below if necessary.
+%\bibliographystyle{apsrev4-2}
+
+% Select what to do with command \comment:  
+% \newcommand{\comment}[1]{}  %comment not showed
+\newcommand{\comment}[1]{\par {\sffamily  \color{red} #1 \par}} %comment showed
+\newcolumntype{V}{>{\centering\arraybackslash} m{0.5cm} }
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[sf,compact]{titlesec}
+\usepackage{authblk}
+\usepackage{fancyhdr}
+\usepackage{etoolbox}
+
+\patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\sf{\uppercase{Twenty-month report}}}
+\lhead{\sf{\uppercase{Gauge gravities}}}
+\cfoot{\thepage}
+\titlespacing{\chapter}{0pt}{3pt}{10pt}
+\titleformat{\chapter}[hang]{\Huge\sffamily}{\thechapter.}{10pt}{}
+\titleformat{\section}[hang]{\center\large\bfseries\sffamily\uppercase}{\thesection.}{10pt}{}
+\titleformat{\subsection}[hang]{\normalsize\bfseries\sffamily}{\thesubsection.}{10pt}{}
+\titleformat{\subsubsection}[hang]{\normalsize\bfseries\sffamily}{\thesubsection.}{10pt}{}
+
+%\stackMath
+\begin{document}
+\input{titlepage}
+
+% Use the \preprint command to place your local institutional report
+% number in the upper righthand corner of the title page in preprint mode.
+% Multiple \preprint commands are allowed.
+% Use the 'preprintnumbers' class option to override journal defaults
+% to display numbers if necessary
+%\preprint{}
+\iffalse
+%Title of paper
+\title{Gauge gravities: twenty-month report}
+
+% repeat the \author .. \affiliation  etc. as needed
+% \email, \thanks, \homepage, \altaffiliation all apply to the current
+% author. Explanatory text should go in the []'s, actual e-mail
+% address or url should go in the {}'s for \email and \homepage.
+% Please use the appropriate macro foreach each type of information
+
+% \affiliation command applies to all authors since the last
+% \affiliation command. The \affiliation command should follow the
+% other information
+% \affiliation can be followed by \email, \homepage, \thanks as well.
+\author{W.E.V. Barker}
+%\email[]{Your e-mail address}
+%\homepage[]{Your web page}
+%\thanks{}
+%\altaffiliation{}
+\affiliation{Astrophysics Group, Cavendish Laboratory, JJ Tomson Avenue, Cambridge CB3 0HA, UK}
+\affiliation{Kavli Institute for Cosmology, Madingley Road, Cambridge CB3 0HA, UK}
+
+\author{A.N. Lasenby}
+%\email[]{Your e-mail address}
+%\homepage[]{Your web page}
+%\thanks{}
+%\altaffiliation{}
+\affiliation{Astrophysics Group, Cavendish Laboratory, JJ Tomson Avenue, Cambridge CB3 0HA, UK}
+\affiliation{Kavli Institute for Cosmology, Madingley Road, Cambridge CB3 0HA, UK}
+
+\author{M.P. Hobson}
+%\email[]{Your e-mail address}
+%\homepage[]{Your web page}
+%\thanks{}
+%\altaffiliation{}
+\affiliation{Astrophysics Group, Cavendish Laboratory, JJ Tomson Avenue, Cambridge CB3 0HA, UK}
+
+\author{W.J. Handley}
+%\email[]{Your e-mail address}
+%\homepage[]{Your web page}
+%\thanks{}
+%\altaffiliation{}
+\affiliation{Astrophysics Group, Cavendish Laboratory, JJ Tomson Avenue, Cambridge CB3 0HA, UK}
+\affiliation{Kavli Institute for Cosmology, Madingley Road, Cambridge CB3 0HA, UK}
+
+%Collaboration name if desired (requires use of superscriptaddress
+%option in \documentclass). \noaffiliation is required (may also be
+%used with the \author command).
+%\collaboration can be followed by \email, \homepage, \thanks as well.
+%\collaboration{}
+%\noaffiliation
+
+\date{\today}
+
+
+% insert suggested keywords - APS authors don't need to do this
+%\keywords{}
+
+%\maketitle must follow title, authors, abstract, and keywords
+\maketitle
+
+% body of paper here - Use proper section commands
+% References should be done using the \cite, \ref, and \label commands
+
+\fi
+%\newpage
+\begin{multicols}{2}
+\section{ntroduction}
+Thi is the second of two progress reports, and follows on from \textit{Linear gravity and energetics: nine-month report} \cite{lg}. The evolving title reflects the fact that while subject of this thesis is ostensibly \textit{theoretical cosmology}, the only emergent commonality is a class of modified gravity theories known as \textit{gauge gravities}.
+
+What follows should satisfy the following:
+
+``[\textit{The report}] \textit{should be about 2,000 words in length, and in addition to covering progress, should provide an outline of their thesis contents (i.e. a thesis plan), indicating the progress that has been made on each topic, and a timetable for completion.}''
+
+Accordingly, following an unnaturally brief introduction to the field in Section \ref{context}, we detail the progress made thus-far in Section \ref{progress}, and a plan for completion in Section \ref{plan}.
+
+All references can be found at the following public repository: \url{https://github.com/wevbarker/second_year_report}.
+\section{Context}\label{context}
+Gauge gravities are popular, third-generation theories of gravity, and prime candidates\footnote{Along with string theory and supergravity.} for the impending replacement of Einstein's general relativity (GR). The need for such a replacement is manifest both empirically (the \textLambda CDM or \textit{cosmic concordance} model suffers from cosmological tensions and requires a regressive dark sector and inflationary mechanism) and theoretically (classical GR contains essential singularities and the quantum theory is non-renormalisable).
+
+The general idea of gauge gravity is to pick a symmetry group for spacetime itself, and then gauge it. Thus, the Poincar\'e group leads to \textit{Poincar\'e guage theory} (PGT), and the Weyl group to \textit{Weyl gauge theory} (WGT). Both theories have been in development for several decades, but WGT was recently \textit{extended} (eWGT) by Lasenby and Hobson \cite{lasenby-hobson-2016}. Beyond the field-structure of the theory, gauge gravities enjoy enormous freedom in their Lagrangia. In this context, the minimal PGT extension to GR is known as \textit{Einstein-Cartan theory} (ECT): both GR and ECT share the \textit{Einstein-Hilbert} Lagrangian structure. More generally, it is common to include all possible quadratic invariants of the gravitational field strength tensors in the Lagrangian, by analogy with Yang-Mills theory. By further insisting on parity-preservation and Ostrogradsky stability, we arrive at the nine-parameter Lagrangia of (q)PGT+ and (q)eWGT+. 
+
+All gauge gravities are readily interpreted as generalisations of the diffeomorphism gauge theory that is GR, to spacetimes with geometric qualities beyond \textit{curvature}: PGT for example introduces \textit{torsion}. It is however perfectly acceptable to recast these theories in Minkowski spacetime. Furthermore, the fundamental tensor formalism can itself be replaced in the Minkowski interpretation by the mathematical language of \textit{geometric algebra} (GA) \cite{doran-lasenby}. Applied to ECT, the GA methodology results in \textit{gauge theory gravity} (GTG) \cite{1998RSPTA.356..487L}. 
+
+The task is thus to find a gauge gravity and action with the following properties:
+\begin{enumerate}[resume]
+  \item \textbf{Quantum feasibility}
+  \item \textbf{Classical correspondence with GR}
+\end{enumerate}
+
+Naturally, both conditions have been extensively studied by many authors. Most recently Lin, Hobson and Lasenby conducted a systematic study of the particle content of linearised (q)PGT+ \cite{2019PhRvD..99f4001L,Lin2}. Thirty-three classes of action were identified which could be made free of ghosts and tachyons, and which were power-counting renormalisable.
+
+One dissatisfying aspect of GR, which gauge gravity is not necessarily expected to resolve, is the \textit{energy problem}: the equivalence principle prohibits the localisation of gravitational energy. As a consequence, the most famous relativists all have a gravitational stress-energy tensoid\footnote{Any object which is made to look like a covariant tensor of second rank, but isn't.} named after them. Again most recently, Butcher, Hobson and Lasenby proposed such an object for linearised GR, in which context it is a tensor \cite{2014JPhCS.484a2011B,2012PhRvD..86h4012B,2012PhRvD..86h4013B}. 
+
+\section{Progress}\label{progress}
+\subsection{Project 0}\label{zer}
+A starter project from October 2017 involved determining the gravitational field in linearised GR, of compact distributions of (possibly spinning) null waves, which cleared up some gauge ambiguities dating from the 1930s. With some marketing, this could be publishable, but it is almost certainly uncitable.
+In February 2018 the results were presented \cite{sem} at a research group seminar.
+\subsection{Project 1}\label{pr1}
+Early 2018 was spent attempting to generalise the Butcher energy localisation scheme \cite{2014JPhCS.484a2011B,2012PhRvD..86h4012B,2012PhRvD..86h4013B} to nonlinear GR, with the following results:
+\begin{enumerate}[resume]
+  \item\label{butcherno} By removing gauge constraints and imposing full GR, a natural generalisation of the Butcher tensor can be found to the pseudotensor of Einstein, the linearisation of which is equivalent to the butcher tensor up to an identically conserved gauge current.
+  \item\label{mol} The variational scheme used to obtain the Einstein pseudotensor in GR, when applied to GTG, produces the pseudotensor of M{\o}ller.
+  \item\label{conscur} The PMF suggests a recipe for constructing identically conserved currents in GTG.
+  \item\label{kg} In the PMF or Minkowski interpretation of GTG, the pseudotensors of Einstein or M{\o}ller describe gravitational stress-energy of self-gravitating spherical distributions as if the gravitational potential were a scalar (i.e. Klein-Gordon) field. When comparing this `Klein Gordon' picture with the formalism of Komar, a local virial theorem emerges.
+\end{enumerate}
+In October 2018 the results \ref{butcherno}, \ref{mol}, \ref{conscur} and \ref{kg} were submitted to the Journal of Mathematical Physics, and they were published \cite{2019JMP....60e2504B} in May 2019 after typographical corrections.
+\subsection{Project 2}\label{pr2}
+As stipulated in \cite{lg}, the intention as of June 2018 was to devote the remainder of the thesis to the nascent eWGT. Three fronts were proposed:
+\begin{enumerate}[resume]
+  \item\label{staticr} Classical, spherically-symmetric eWGT field equations (stars, black holes etc.)
+  \item Spin-torsion interaction in eWGT
+  \item\label{cosm} Classical, homogeneous and isotropic eWGT field equations (cosmology)
+\end{enumerate}
+Following exposure to \cite{2005gr.qc.....9014L}, it was decided to pursue front \ref{cosm} as a starting point, with the following results:
+\begin{enumerate}[resume]
+  \item Several Maple packages were developed to solve the following problems:
+    \begin{enumerate}[resume]
+      \item\label{sta} Component calculations in the spacetime algebra of GA.
+      \item\label{solver} Finding, manipulating and solving the cosmological equations of (q)PGT+ and (q)eWGT+ using the minisuperspace approximation.
+    \end{enumerate}
+  \item\label{dec} A unique decomposition of quadratic invariants of gravitational field strengths was identified within the GA formulation of gauge gravity, which compares in a useful way with the irreducible tensor decomposition.
+  \item\label{equiv} The cosmological equations were used to prove that (q)PGT+ and (q)eWGT+ span the same cosmologies.
+  \item\label{ctp} The nine parameters in the Lagrangia of (q)PGT+ and (q)eWGT+ were linearly combined into five parameters of cosmological interest, $\{a,\sigma_1,\sigma_2,\sigma_3,\upsilon_1,\upsilon_2\}$.
+  \end{enumerate}
+  In the opening months of 2019, some members of our research group published \cite{2019PhRvD..99f4001L} and developed the results in \cite{Lin2}.
+  \begin{enumerate}[resume]
+  \item Using the cosmic theory parameters of \ref{ctp}, the 33 critical cases identified in \cite{2019PhRvD..99f4001L,Lin2} were categorised according to their cosmology. The most promising cosmologies with the strongest QF motivation were then as follows:
+    \begin{enumerate}
+      \item\label{D} Setting $a=\sigma_3=\upsilon_1=0$ decouples the curvature constant, $k$, from the dynamical evolution of the universe. We term this `$k$-screening'. Remarkably, whilst the resulting system is resistant to a full analytic solution, we can show analytically and numerically that such universes have a tendency to `freeze out' into \textLambda CDM-like solutions whenever a particular cosmic fluid (e.g. dust, radiation or dark energy) becomes dominant, with implications for possible $\Lambda$-enhancement effects. We can show that the corresponding Lagrangia do \textit{not} merely reduce to conformal gravity.
+      \item\label{ek} Setting $a=\sigma_3=\sigma_2=\upsilon_1=0$ produces another $k$-screened cosmology, but the cosmological equations are precisely the flat Friedmann of GR, while torsion effects generate an emergent effective $k$. This results in `dynamically open, geometrically arbitrary' cosmologies.
+      \item\label{inf} Setting $a=\sigma_3=\upsilon_2=\upsilon_1=0$ produces another $k$-screened cosmology which is a kind of conformal gravity, exhibiting perpetual power-law inflation. 
+    \end{enumerate}
+  \item\label{toy} With the apparatus of \ref{sta} and \ref{solver}, certain toy-model Lagrangia were considered without and QF motivation:
+    \begin{enumerate}[resume]
+      \item We were also able to extend the work of \cite{lasenby-doran-heineke-2005}, by showing that the same cosmological equations are produced by a much wider class of Lagrangia, which take a pleasing form in the GA formulation.
+      \item Some simple $\upsilon_1\neq 0$ theories were studied, which produce cyclic universes with periodic bangs and crunches.
+  \end{enumerate}
+\end{enumerate}
+In April 2019, the results \ref{dec} and \ref{equiv}, along with the cosmological solutions \ref{ctp} and \ref{toy} were presented \cite{poster} at the \textit{Strings, Gravity and Cosmology Student Conference} in Munich.
+
+An extensive and time-consuming literature review in July 2019 identified a very significant corpus on (q)PGT+ cosmology, which was hitherto unknown to our research group, and left the following impression:
+\begin{enumerate}[resume]
+  \item\label{field} The field is active and dominated by about ten contemporary authors, who appear to read each others' work and be open to collaboration.
+  \item\label{boring} The range of EGP in (q)PGT+ is well known, and whilst such results are quite publishable (e.g. recently, \cite{2019arXiv190604340Z}), they are unlikely to be of lasting impact.
+  \item\label{QFn} Consideration of QF, rather than EGP, has driven the field since the turn of the century.
+\end{enumerate}
+These findings are not only of clear value, but also work in our favour, particularly \ref{field} and \ref{QFn} suggest that our findings may be well received. Furthermore, the particular QF considerations in \ref{QFn} rely \cite{2011PhRvD..83b4001B} on an application of the Hamiltonian formulation to the work of Sezgin, which has been antiquated precisely by our major references, \cite{2019PhRvD..99f4001L,Lin2}. As a consequence, the family of (q)PGT+ cosmologies \ref{D}, \ref{ek} and \ref{inf}, along with the $k$-screening phenomenon, appear roughly \textit{orthogonal} to those models which are most popular in the literature.
+
+The following questions remain open as of July 2019:
+\begin{enumerate}[resume]
+  \item\label{reach} What precise EGP are reachable from the cosmology \ref{D}, given the current Planck data?
+  \item\label{min} How can we prove that the minisuperspace approximation in \ref{solver} is valid in our case?
+  \item\label{sr} Do the preferred theories satisfy classical GR correspondence in spherically symmetric or axisymmetric spacetimes?
+  \item\label{par} What is the physical particle content of the various critical cases in \cite{2019PhRvD..99f4001L,Lin2}?
+  \item\label{ham} Which critical cases in \cite{2019PhRvD..99f4001L,Lin2} pass the nonlinear Hamiltonian test developed in \cite{1999IJMPD...8..459Y,2002IJMPD..11..747Y}?
+\end{enumerate}
+We consider \ref{reach} and \ref{min} to be answerable, and are currently under investigation. On the other hand, \ref{sr} is probably as complicated a task as the cosmological investigation so far performed: it comes with its own literature and suffers from the same drawback as \ref{boring}. We are unsure how to answer \ref{par}. The question \ref{ham} is rather important, because both it and \ref{sr} could invalidate the theories of interest. Fortunately, whilst \ref{ham} would be time-consuming to answer, a clear algorithm is developed in \cite{1999IJMPD...8..459Y,2002IJMPD..11..747Y}.
+
+Running notes in the form of the \textit{Friday meeting report} \cite{fmr} were maintained for the work described in Section \ref{pr2}, though these are for internal use only and are not expected to read well. Much of the content has now been written up \cite{paper-2} in preparation for submission to Physical Review D.
+\subsection{Project 3}\label{pr3}
+During the work described in Sections \ref{pr1} and \ref{pr2}, the reluctance of the community to adopt the PMF and GA in general became a source of concern. The following tasks were necessary:
+\begin{enumerate}[resume]
+  \item\label{dict} A notationally consistent translation between the AMF and PMF of eWGT and PGT.
+  \item\label{bh} An application of the Baker-Hausdorff formula to prove the equivalence of STA rotors and the $\mathrm{SO}(3)$ generators.
+\end{enumerate}
+Both \ref{dict} and \ref{bh} are partially written up in \cite{dictionary}, which we may or may not attempt to publish, but which will certainly be left on the Arxiv in the near future.
+\section{Plan}\label{plan}
+\end{multicols}
+\begin{multicols}{2}
+%\bibliographystyle{apsrev4-1}
+\bibliographystyle{unsrt}
+\bibliography{paper}
+\end{multicols}
+\end{document}
+%
+% ****** End of file apstemplate.tex ******
+
