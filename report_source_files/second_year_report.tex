@@ -79,7 +79,7 @@
 \titlespacing{\chapter}{0pt}{3pt}{10pt}
 \titleformat{\chapter}[hang]{\center\large\bfseries\sffamily}{\thechapter.}{10pt}{}
 \titleformat{\section}[hang]{\center\large\bfseries\sffamily\uppercase}{\thesection.}{10pt}{}
-\titleformat{\subsection}[hang]{\normalsize\bfseries\sffamily}{\thesubsection.}{10pt}{}
+\titleformat{\subsection}[hang]{\normalsize\bfseries\sffamily\underline}{\thesubsection.}{10pt}{}
 \titleformat{\subsubsection}[hang]{\normalsize\bfseries\sffamily}{\thesubsection.}{10pt}{}
 
 %\stackMath
@@ -92,72 +92,7 @@
 % Use the 'preprintnumbers' class option to override journal defaults
 % to display numbers if necessary
 %\preprint{}
-\iffalse
-%Title of paper
-\title{Gauge gravities: twenty-month report}
 
-% repeat the \author .. \affiliation  etc. as needed
-% \email, \thanks, \homepage, \altaffiliation all apply to the current
-% author. Explanatory text should go in the []'s, actual e-mail
-% address or url should go in the {}'s for \email and \homepage.
-% Please use the appropriate macro foreach each type of information
-
-% \affiliation command applies to all authors since the last
-% \affiliation command. The \affiliation command should follow the
-% other information
-% \affiliation can be followed by \email, \homepage, \thanks as well.
-\author{W.E.V. Barker}
-%\email[]{Your e-mail address}
-%\homepage[]{Your web page}
-%\thanks{}
-%\altaffiliation{}
-\affiliation{Astrophysics Group, Cavendish Laboratory, JJ Tomson Avenue, Cambridge CB3 0HA, UK}
-\affiliation{Kavli Institute for Cosmology, Madingley Road, Cambridge CB3 0HA, UK}
-
-\author{A.N. Lasenby}
-%\email[]{Your e-mail address}
-%\homepage[]{Your web page}
-%\thanks{}
-%\altaffiliation{}
-\affiliation{Astrophysics Group, Cavendish Laboratory, JJ Tomson Avenue, Cambridge CB3 0HA, UK}
-\affiliation{Kavli Institute for Cosmology, Madingley Road, Cambridge CB3 0HA, UK}
-
-\author{M.P. Hobson}
-%\email[]{Your e-mail address}
-%\homepage[]{Your web page}
-%\thanks{}
-%\altaffiliation{}
-\affiliation{Astrophysics Group, Cavendish Laboratory, JJ Tomson Avenue, Cambridge CB3 0HA, UK}
-
-\author{W.J. Handley}
-%\email[]{Your e-mail address}
-%\homepage[]{Your web page}
-%\thanks{}
-%\altaffiliation{}
-\affiliation{Astrophysics Group, Cavendish Laboratory, JJ Tomson Avenue, Cambridge CB3 0HA, UK}
-\affiliation{Kavli Institute for Cosmology, Madingley Road, Cambridge CB3 0HA, UK}
-
-%Collaboration name if desired (requires use of superscriptaddress
-%option in \documentclass). \noaffiliation is required (may also be
-%used with the \author command).
-%\collaboration can be followed by \email, \homepage, \thanks as well.
-%\collaboration{}
-%\noaffiliation
-
-\date{\today}
-
-
-% insert suggested keywords - APS authors don't need to do this
-%\keywords{}
-
-%\maketitle must follow title, authors, abstract, and keywords
-\maketitle
-
-% body of paper here - Use proper section commands
-% References should be done using the \cite, \ref, and \label commands
-
-\fi
-%\newpage
 \begin{multicols}{2}
 \section{Introduction}
 Thi is the second of two progress reports, and follows on from \textit{Linear gravity and energetics: nine-month report} \cite{lg}. The evolving title reflects the fact that while subject of this thesis is ostensibly \textit{theoretical cosmology}, the only emergent commonality is a class of modified gravity theories known as \textit{gauge gravities}.
@@ -184,10 +119,10 @@ The task is thus to find a gauge gravity and action with the following propertie
 
 Naturally, both conditions have been extensively studied by many authors. To our knowledge, there are four approaches to QF:
 \begin{enumerate}[resume]
-  \item Linearised spin projecton operator (SPO) propagator test
-  \item The \textit{positive energy test} (PET)
-  \item Cauchy-Kovalevska and hyperbolicity conditions
-  \item Application of the Dirac algorithm 
+  \item\label{gr} Linearised spin projecton operator (SPO) propagator test
+  \item\label{al} The \textit{positive energy test} (PET)
+  \item\label{be} Cauchy-Kovalevska and hyperbolicity conditions
+  \item\label{ga} Application of the Dirac algorithm 
 \end{enumerate}
 Most recently Lin, Hobson and Lasenby conducted a systematic study of the particle content of linearised (q)PGT+ \cite{2019PhRvD..99f4001L,Lin2}. Thirty-three classes of action were identified which could be made free of ghosts and tachyons, and which were power-counting renormalisable. This builds on earlier, limited work by Sezgin and Nieuwenhuizen \cite{1980PhRvD..21.3269S}.
 
@@ -269,18 +204,25 @@ Both \ref{dict} and \ref{bh} are partially written up in \cite{dictionary}, whic
 \section{Thesis plan}\label{plan}
 \subsection{The thesis itself}
 At the present time we anticipate the final thesis will have the following structure:
-\begin{enumerate}[resume]
-  \item Introduction:
-    \begin{enumerate}[resume]
-      \item This should have all the usual qualities of an introduction, including a broad literature review adapted from the introductions of \cite{2019JMP....60e2504B,paper-2}.
+\begin{description}
+  \item[Chapter 1] This should have all the usual qualities of an introduction, including a broad literature review adapted from the introductions of \cite{2019JMP....60e2504B,paper-2}. Some other specific content: 
+    \begin{enumerate}
       \item We will need a clear translation between the PTF and AMF, adapted from \cite{dictionary}.
-      \item The 
+      \item The AMF interpretation of symplectic calculus developed in the appendix of \cite{2019JMP....60e2504B}.
     \end{enumerate}
-  \item Static energetics in gravity
-  \item Cosmologically valid gauge gravities: a systematic approach
-  \item Nonlinear validity of gauge gravities
-\end{enumerate}
+  \item[Chapter 2] This will contain the results of \cite{2019JMP....60e2504B}.
+  \item[Chapter 3] This will contain the results of \cite{paper-2}.
+  \item[Chapter 4] This will be an attempt to further constrain the 33 critical cases of \cite{2019PhRvD..99f4001L,Lin2}, using \ref{al}, \ref{be} or \ref{ga}, but probably \ref{ga}.
+  \item[Appendices] So far the following content belongs here:
+    \begin{enumerate}
+      \item Details of the proof that the Butcher tensor \cite{2014JPhCS.484a2011B,2012PhRvD..86h4012B,2012PhRvD..86h4013B} has no generalisation in 2nd order GR or beyond, other than to the pseudotensor of Einstein.
+      \item Details of the \textit{STA} and \textit{tools} packages developed for Maple.
+    \end{enumerate}
+\end{description}
 \subsection{Timeline}
+\begin{description}
+  \item[15 August 2019] \color{{red}{Hard}}
+\end{description}<++>
 \end{multicols}
 \begin{multicols}{2}
 %\bibliographystyle{apsrev4-1}

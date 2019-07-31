@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.7.12)  31 JUL 2019 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.7.12)  31 JUL 2019 18:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1385,16 +1385,107 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./university_crest.pdf>])
-LaTeX Font Info:    Try loading font information for LGR+cmss on input line 173
+LaTeX Font Info:    Try loading font information for LGR+cmss on input line 108
 .
  (/usr/share/texmf-dist/tex/latex/cbfonts-fd/lgrcmss.fd
 File: lgrcmss.fd 2017/07/29 v1.2 Greek European Computer Sans Serif
-) [2]
-Underfull \hbox (badness 6493) in paragraph at lines 212--213
+)
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 \subsection{Project 0}
+                            \label{zer}
+The <format> argument cannot contain horizontal material
+such as text, \noindent, \makebox, etc.
+
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \subsection{Project 1}
+                            \label{pr1}
+The <format> argument cannot contain horizontal material
+such as text, \noindent, \makebox, etc.
+
+[2]
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144 \subsection{Project 2}
+                            \label{pr2}
+The <format> argument cannot contain horizontal material
+such as text, \noindent, \makebox, etc.
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 147--148
 []\OT1/cmss/m/n/10 Classical, spherically-symmetric eWGT field
  []
 
-[3] (./second_year_report.bbl [4]
+[3]
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.197 \subsection{Project 3}
+                            \label{pr3}
+The <format> argument cannot contain horizontal material
+such as text, \noindent, \makebox, etc.
+
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \subsection{The thesis itself}
+                                    
+The <format> argument cannot contain horizontal material
+such as text, \noindent, \makebox, etc.
+
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 \subsection{Timeline}
+                           
+The <format> argument cannot contain horizontal material
+such as text, \noindent, \makebox, etc.
+
+
+! Package xcolor Error: Undefined color `{red}{Hard}'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224   \item[15 August 2019] \color{{red}{Hard}}
+                                                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \vbox (0.76666pt too high) has occurred while \output is active []
+
+
+[4] (./second_year_report.bbl
 ! Undefined control sequence.
 l.28 \newblock {\em \prd
                         }, 99(6):064001, Mar 2019.
@@ -1449,25 +1540,25 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
  [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
  (./second_year_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 232.
 Package rerunfilecheck Info: File `second_year_report.out' has not changed.
 (rerunfilecheck)             Checksum: 3BA3297431FC65E68724CC3C816ACAAF;566.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 232.
  ) 
 Here is how much of TeX's memory you used:
- 20448 strings out of 492649
- 378285 string characters out of 6135778
- 467703 words of memory out of 5000000
- 24005 multiletter control sequences out of 15000+600000
+ 20451 strings out of 492649
+ 378325 string characters out of 6135778
+ 476858 words of memory out of 5000000
+ 24011 multiletter control sequences out of 15000+600000
  545621 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,11n,43p,10391b,978s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1482,10 +1573,10 @@ t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type
 onts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/cbfonts/gsmn1000.pfb>
-Output written on second_year_report.pdf (5 pages, 204439 bytes).
+Output written on second_year_report.pdf (5 pages, 206188 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
- 269 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 500000)
+ 302 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 81 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
