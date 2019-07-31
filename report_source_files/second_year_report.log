@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.7.12)  31 JUL 2019 00:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.7.12)  31 JUL 2019 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1385,177 +1385,88 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./university_crest.pdf>])
-
-LaTeX Warning: Citation `lg' on page 2 undefined on input line 163.
-
 LaTeX Font Info:    Try loading font information for LGR+cmss on input line 173
 .
-(/usr/share/texmf-dist/tex/latex/cbfonts-fd/lgrcmss.fd
+ (/usr/share/texmf-dist/tex/latex/cbfonts-fd/lgrcmss.fd
 File: lgrcmss.fd 2017/07/29 v1.2 Greek European Computer Sans Serif
 )
-
-LaTeX Warning: Citation `lasenby-hobson-2016' on page 2 undefined on input line
- 175.
-
-
-LaTeX Warning: Citation `doran-lasenby' on page 2 undefined on input line 177.
-
-
-LaTeX Warning: Citation `1998RSPTA.356..487L' on page 2 undefined on input line
- 177.
-
-
-LaTeX Warning: Citation `2019PhRvD..99f4001L' on page 2 undefined on input line
- 185.
-
-
-LaTeX Warning: Citation `Lin2' on page 2 undefined on input line 185.
-
-
-LaTeX Warning: Citation `2014JPhCS.484a2011B' on page 2 undefined on input line
- 187.
-
-
-LaTeX Warning: Citation `2012PhRvD..86h4012B' on page 2 undefined on input line
- 187.
-
-
-LaTeX Warning: Citation `2012PhRvD..86h4013B' on page 2 undefined on input line
- 187.
-
-
-LaTeX Warning: Citation `sem' on page 2 undefined on input line 192.
-
-
-LaTeX Warning: Citation `2014JPhCS.484a2011B' on page 2 undefined on input line
- 194.
-
-
-LaTeX Warning: Citation `2012PhRvD..86h4012B' on page 2 undefined on input line
- 194.
-
-
-LaTeX Warning: Citation `2012PhRvD..86h4013B' on page 2 undefined on input line
- 194.
-
 
 Package multicol Warning: I moved some lines to the next page.
 (multicol)                Footnotes on page 2 might be wrong on input line 199.
 
 
 [2]
-
-LaTeX Warning: Citation `2019JMP....60e2504B' on page 3 undefined on input line
- 201.
-
-
-LaTeX Warning: Citation `lg' on page 3 undefined on input line 203.
-
-
 Underfull \hbox (badness 6493) in paragraph at lines 205--206
 []\OT1/cmss/m/n/10 Classical, spherically-symmetric eWGT field
  []
 
+[3] (./second_year_report.bbl
+! Undefined control sequence.
+l.28 \newblock {\em \prd
+                        }, 99(6):064001, Mar 2019.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Citation `2005gr.qc.....9014L' on page 3 undefined on input line
- 209.
+! Undefined control sequence.
+l.46 \newblock {\em \prd
+                        }, 86(8):084012, Oct 2012.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+l.51 \newblock {\em \prd
+                        }, 86(8):084013, Oct 2012.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Citation `2019PhRvD..99f4001L' on page 3 undefined on input line
- 220.
-
-
-LaTeX Warning: Citation `Lin2' on page 3 undefined on input line 220.
-
-
-LaTeX Warning: Citation `2019PhRvD..99f4001L' on page 3 undefined on input line
- 222.
-
-
-LaTeX Warning: Citation `Lin2' on page 3 undefined on input line 222.
-
-
-LaTeX Warning: Citation `lasenby-doran-heineke-2005' on page 3 undefined on inp
-ut line 230.
-
-
-LaTeX Warning: Citation `poster' on page 3 undefined on input line 234.
-
-
-LaTeX Warning: Citation `2019arXiv190604340Z' on page 3 undefined on input line
- 239.
-
-[3]
-
-LaTeX Warning: Citation `2011PhRvD..83b4001B' on page 4 undefined on input line
- 242.
-
-
-LaTeX Warning: Citation `2019PhRvD..99f4001L' on page 4 undefined on input line
- 242.
-
-
-LaTeX Warning: Citation `Lin2' on page 4 undefined on input line 242.
-
-
-LaTeX Warning: Citation `2019PhRvD..99f4001L' on page 4 undefined on input line
- 249.
-
-
-LaTeX Warning: Citation `Lin2' on page 4 undefined on input line 249.
-
-
-LaTeX Warning: Citation `2019PhRvD..99f4001L' on page 4 undefined on input line
- 250.
-
-
-LaTeX Warning: Citation `Lin2' on page 4 undefined on input line 250.
-
-
-LaTeX Warning: Citation `1999IJMPD...8..459Y' on page 4 undefined on input line
- 250.
-
-
-LaTeX Warning: Citation `2002IJMPD..11..747Y' on page 4 undefined on input line
- 250.
-
-
-LaTeX Warning: Citation `1999IJMPD...8..459Y' on page 4 undefined on input line
- 252.
-
-
-LaTeX Warning: Citation `2002IJMPD..11..747Y' on page 4 undefined on input line
- 252.
-
-
-LaTeX Warning: Citation `fmr' on page 4 undefined on input line 254.
-
-
-LaTeX Warning: Citation `paper-2' on page 4 undefined on input line 254.
-
-
-LaTeX Warning: Citation `dictionary' on page 4 undefined on input line 261.
-
-No file second_year_report.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 269.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 82.
+
+LaTeX Font Info:    No file OMScmss.fd. on input line 82.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbackslash' on input line 82.
+
+! Undefined control sequence.
+l.89 \newblock {\em \prd
+                        }, 83(2):024001, Jan 2011.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
+ [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
  (./second_year_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 269.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 270.
 Package rerunfilecheck Info: File `second_year_report.out' has not changed.
 (rerunfilecheck)             Checksum: 5EEE242054A16A0BCAF649940854B6F4;427.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 269.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 270.
  ) 
 Here is how much of TeX's memory you used:
- 20378 strings out of 492649
- 377208 string characters out of 6135778
- 459868 words of memory out of 5000000
- 23976 multiletter control sequences out of 15000+600000
+ 20431 strings out of 492649
+ 378095 string characters out of 6135778
+ 458644 words of memory out of 5000000
+ 24002 multiletter control sequences out of 15000+600000
  545621 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,11n,43p,10391b,1024s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1570,10 +1481,10 @@ t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type
 onts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/cbfonts/gsmn1000.pfb>
-Output written on second_year_report.pdf (4 pages, 197403 bytes).
+Output written on second_year_report.pdf (5 pages, 204659 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
 

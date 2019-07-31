@@ -247,10 +247,12 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/share/texmf-dist/tex/latex/cbfonts-fd/lgrcmss.fd
 INPUT /usr/share/texmf-dist/tex/latex/cbfonts-fd/lgrcmss.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cbfonts/gsmn1000.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT second_year_report.bbl
+INPUT second_year_report.bbl
 INPUT second_year_report.aux
 INPUT ./second_year_report.out
 INPUT ./second_year_report.out
