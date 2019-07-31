@@ -31,6 +31,7 @@
 \usepackage[hyphenbreaks]{breakurl}
 \usepackage{enumitem}
 \usepackage{amssymb}
+\usepackage[title]{appendix}
 \usepackage{nameref}
 \usepackage{hhline}
 %\usepackage[fleqn]{amsmath}
@@ -97,6 +98,8 @@
 
 %\stackMath
 \begin{document}
+\appedndixtitleon
+\appedndixtitletocon
 \input{titlepage}
 
 % Use the \preprint command to place your local institutional report
@@ -276,7 +279,20 @@ Clearly \ref{c4} will require the greatest amount of work. We anticipate the fol
   \item[Spring-Summer 2021] Submission.
 \end{description}
 \end{enumerate}
-
+\end{multicols}
+\hline
+\begin{multicols}{2}
+\begin{appendices}
+  \titleformat{\section}[hang]{\center\large\bfseries\sffamily}{\appendixname{}\thesection.}{10pt}{}
+\section{Other time commitments}
+The following departmental and external teaching was undertaken:
+\begin{enumerate}
+  \item 2017-2018 \textit{Mathematics for the NST B} supervisions, 100 hours.
+  \item 2017-2019 \textit{Relativity} supervisions, 30 hours.
+  \item 2018-2019 \textit{Relativistic astrophysics and cosmology} supervisions, 15 hours.
+  \item 2019 \textit{Reach summer school, Physics and Astronomy course}, 30 hours.
+\end{enumerate}
+\end{appendices}
 \end{multicols}
 \hline
 \begin{multicols}{2}
