@@ -77,7 +77,7 @@
 \lhead{\sf{\uppercase{Gauge gravities}}}
 \cfoot{\thepage}
 \titlespacing{\chapter}{0pt}{3pt}{10pt}
-\titleformat{\chapter}[hang]{\Huge\sffamily}{\thechapter.}{10pt}{}
+\titleformat{\chapter}[hang]{\center\large\bfseries\sffamily}{\thechapter.}{10pt}{}
 \titleformat{\section}[hang]{\center\large\bfseries\sffamily\uppercase}{\thesection.}{10pt}{}
 \titleformat{\subsection}[hang]{\normalsize\bfseries\sffamily}{\thesubsection.}{10pt}{}
 \titleformat{\subsubsection}[hang]{\normalsize\bfseries\sffamily}{\thesubsection.}{10pt}{}
@@ -174,15 +174,22 @@ Gauge gravities are popular, third-generation theories of gravity, and prime can
 
 The general idea of gauge gravity is to pick a symmetry group for spacetime itself, and then gauge it. Thus, the Poincar\'e group leads to \textit{Poincar\'e guage theory} (PGT), and the Weyl group to \textit{Weyl gauge theory} (WGT). Both theories have been in development for several decades, but WGT was recently \textit{extended} (eWGT) by Lasenby and Hobson \cite{lasenby-hobson-2016}. Beyond the field-structure of the theory, gauge gravities enjoy enormous freedom in their Lagrangia. In this context, the minimal PGT extension to GR is known as \textit{Einstein-Cartan theory} (ECT): both GR and ECT share the \textit{Einstein-Hilbert} Lagrangian structure. More generally, it is common to include all possible quadratic invariants of the gravitational field strength tensors in the Lagrangian, by analogy with Yang-Mills theory. By further insisting on parity-preservation and Ostrogradsky stability, we arrive at the nine-parameter Lagrangia of (q)PGT+ and (q)eWGT+. 
 
-All gauge gravities are readily interpreted as generalisations of the diffeomorphism gauge theory that is GR, to spacetimes with geometric qualities beyond \textit{curvature}: PGT for example introduces \textit{torsion}. It is however perfectly acceptable to recast these theories in Minkowski spacetime. Furthermore, the fundamental tensor formalism can itself be replaced in the Minkowski interpretation by the mathematical language of \textit{geometric algebra} (GA) \cite{doran-lasenby}. Applied to ECT, the GA methodology results in \textit{gauge theory gravity} (GTG) \cite{1998RSPTA.356..487L}. 
+All gauge gravities are readily interpreted as generalisations of the diffeomorphism gauge theory that is GR, to spacetimes with geometric qualities beyond \textit{curvature}: PGT for example introduces \textit{torsion}. It is however perfectly acceptable to recast these theories in Minkowski spacetime. Furthermore, the fundamental tensor formalism can itself be replaced in the Minkowski interpretation by the mathematical language of \textit{geometric algebra} (GA) \cite{doran-lasenby}. We term this the \textit{active multivector formalism} (AMF), as supposed to the nearly ubiquitous \textit{passive tensor formalism} (PTF). Applied to ECT, the AMF methodology results in \textit{gauge theory gravity} (GTG) \cite{1998RSPTA.356..487L}. 
 
 The task is thus to find a gauge gravity and action with the following properties:
 \begin{enumerate}[resume]
-  \item \textbf{Quantum feasibility}
-  \item \textbf{Classical correspondence with GR}
+  \item Quantum feasibility (QF)
+  \item Classical correspondence with GR
 \end{enumerate}
 
-Naturally, both conditions have been extensively studied by many authors. Most recently Lin, Hobson and Lasenby conducted a systematic study of the particle content of linearised (q)PGT+ \cite{2019PhRvD..99f4001L,Lin2}. Thirty-three classes of action were identified which could be made free of ghosts and tachyons, and which were power-counting renormalisable.
+Naturally, both conditions have been extensively studied by many authors. To our knowledge, there are four approaches to QF:
+\begin{enumerate}[resume]
+  \item Linearised spin projecton operator (SPO) propagator test
+  \item The \textit{positive energy test} (PET)
+  \item Cauchy-Kovalevska and hyperbolicity conditions
+  \item Application of the Dirac algorithm 
+\end{enumerate}
+Most recently Lin, Hobson and Lasenby conducted a systematic study of the particle content of linearised (q)PGT+ \cite{2019PhRvD..99f4001L,Lin2}. Thirty-three classes of action were identified which could be made free of ghosts and tachyons, and which were power-counting renormalisable. This builds on earlier, limited work by Sezgin and Nieuwenhuizen \cite{1980PhRvD..21.3269S}.
 
 One dissatisfying aspect of GR, which gauge gravity is not necessarily expected to resolve, is the \textit{energy problem}: the equivalence principle prohibits the localisation of gravitational energy. As a consequence, the most famous relativists all have a gravitational stress-energy tensoid\footnote{Any object which is made to look like a covariant tensor of second rank, but isn't.} named after them. Again most recently, Butcher, Hobson and Lasenby proposed such an object for linearised GR, in which context it is a tensor \cite{2014JPhCS.484a2011B,2012PhRvD..86h4012B,2012PhRvD..86h4013B}. 
 
@@ -253,14 +260,27 @@ We consider \ref{reach} and \ref{min} to be answerable, and are currently under 
 
 Running notes in the form of the \textit{Friday meeting report} \cite{fmr} were maintained for the work described in Section \ref{pr2}, though these are for internal use only and are not expected to read well. Much of the content has now been written up \cite{paper-2} in preparation for submission to Physical Review D.
 \subsection{Project 3}\label{pr3}
-During the work described in Sections \ref{pr1} and \ref{pr2}, the reluctance of the community to adopt the PMF and GA in general became a source of concern. The following tasks were necessary:
+During the work described in Sections \ref{pr1} and \ref{pr2}, the reluctance of the community to adopt the AMF and GA in general became a source of concern. The following tasks were necessary:
 \begin{enumerate}[resume]
-  \item\label{dict} A notationally consistent translation between the AMF and PMF of eWGT and PGT.
+  \item\label{dict} A notationally consistent translation between the PTF and AMF of eWGT and PGT.
   \item\label{bh} An application of the Baker-Hausdorff formula to prove the equivalence of STA rotors and the $\mathrm{SO}(3)$ generators.
 \end{enumerate}
 Both \ref{dict} and \ref{bh} are partially written up in \cite{dictionary}, which we may or may not attempt to publish, but which will certainly be left on the Arxiv in the near future.
-\section{Plan}\label{plan}
-The
+\section{Thesis plan}\label{plan}
+\subsection{The thesis itself}
+At the present time we anticipate the final thesis will have the following structure:
+\begin{enumerate}[resume]
+  \item Introduction:
+    \begin{enumerate}[resume]
+      \item This should have all the usual qualities of an introduction, including a broad literature review adapted from the introductions of \cite{2019JMP....60e2504B,paper-2}.
+      \item We will need a clear translation between the PTF and AMF, adapted from \cite{dictionary}.
+      \item The 
+    \end{enumerate}
+  \item Static energetics in gravity
+  \item Cosmologically valid gauge gravities: a systematic approach
+  \item Nonlinear validity of gauge gravities
+\end{enumerate}
+\subsection{Timeline}
 \end{multicols}
 \begin{multicols}{2}
 %\bibliographystyle{apsrev4-1}

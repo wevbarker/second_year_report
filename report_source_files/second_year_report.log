@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.7.12)  31 JUL 2019 14:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.7.12)  31 JUL 2019 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1372,7 +1372,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 86.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./titlepage.tex
-<university_crest.pdf, id=36, 59.22125pt x 69.25874pt>
+<university_crest.pdf, id=44, 59.22125pt x 69.25874pt>
 File: university_crest.pdf Graphic file (type pdf)
 <use university_crest.pdf>
 Package pdftex.def Info: university_crest.pdf  used on input line 13.
@@ -1389,18 +1389,12 @@ LaTeX Font Info:    Try loading font information for LGR+cmss on input line 173
 .
  (/usr/share/texmf-dist/tex/latex/cbfonts-fd/lgrcmss.fd
 File: lgrcmss.fd 2017/07/29 v1.2 Greek European Computer Sans Serif
-)
-
-Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 2 might be wrong on input line 199.
-
-
-[2]
-Underfull \hbox (badness 6493) in paragraph at lines 205--206
+) [2]
+Underfull \hbox (badness 6493) in paragraph at lines 212--213
 []\OT1/cmss/m/n/10 Classical, spherically-symmetric eWGT field
  []
 
-[3] (./second_year_report.bbl
+[3] (./second_year_report.bbl [4]
 ! Undefined control sequence.
 l.28 \newblock {\em \prd
                         }, 99(6):064001, Mar 2019.
@@ -1411,8 +1405,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.46 \newblock {\em \prd
-                        }, 86(8):084012, Oct 2012.
+l.40 \newblock {\em \prd
+                        }, 21(12):3269--3280, Jun 1980.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1421,6 +1415,15 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.51 \newblock {\em \prd
+                        }, 86(8):084012, Oct 2012.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.56 \newblock {\em \prd
                         }, 86(8):084013, Oct 2012.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1428,18 +1431,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[4]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 82.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 87.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 82.
-
+LaTeX Font Info:    No file OMScmss.fd. on input line 87.
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 82.
+(Font)              for symbol `textbackslash' on input line 87.
 
 ! Undefined control sequence.
-l.89 \newblock {\em \prd
+l.94 \newblock {\em \prd
                         }, 83(2):024001, Jan 2011.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1448,28 +1449,28 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
  [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
  (./second_year_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 270.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
 Package rerunfilecheck Info: File `second_year_report.out' has not changed.
-(rerunfilecheck)             Checksum: 5EEE242054A16A0BCAF649940854B6F4;427.
+(rerunfilecheck)             Checksum: 3BA3297431FC65E68724CC3C816ACAAF;566.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 270.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
  ) 
 Here is how much of TeX's memory you used:
- 20431 strings out of 492649
- 378095 string characters out of 6135778
- 458644 words of memory out of 5000000
- 24002 multiletter control sequences out of 15000+600000
+ 20448 strings out of 492649
+ 378285 string characters out of 6135778
+ 467703 words of memory out of 5000000
+ 24005 multiletter control sequences out of 15000+600000
  545621 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,11n,43p,10391b,1024s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,43p,10391b,978s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/a
@@ -1481,10 +1482,10 @@ t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type
 onts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/cbfonts/gsmn1000.pfb>
-Output written on second_year_report.pdf (5 pages, 204659 bytes).
+Output written on second_year_report.pdf (5 pages, 204439 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 242 compressed objects within 3 object streams
- 70 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 293 PDF objects out of 1000 (max. 8388607)
+ 269 compressed objects within 3 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
