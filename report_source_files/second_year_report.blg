@@ -6,45 +6,45 @@ Database file #1: paper.bib
 Warning--empty publisher in doran-lasenby
 Warning--empty journal in Lin2
 Warning--empty journal in lasenby-doran-heineke-2005
-You've used 22 entries,
+You've used 24 entries,
             1791 wiz_defined-function locations,
-            577 strings with 6746 characters,
-and the built_in function-call counts, 4751 in all, are:
-= -- 422
-> -- 211
+            593 strings with 7128 characters,
+and the built_in function-call counts, 5251 in all, are:
+= -- 468
+> -- 227
 < -- 4
-+ -- 79
-- -- 57
-* -- 317
-:= -- 761
-add.period$ -- 67
-call.type$ -- 22
-change.case$ -- 21
++ -- 85
+- -- 61
+* -- 361
+:= -- 837
+add.period$ -- 73
+call.type$ -- 24
+change.case$ -- 23
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 223
-empty$ -- 427
-format.name$ -- 57
-if$ -- 1065
+cite$ -- 27
+duplicate$ -- 241
+empty$ -- 479
+format.name$ -- 61
+if$ -- 1177
 int.to.chr$ -- 0
-int.to.str$ -- 22
-missing$ -- 17
-newline$ -- 114
-num.names$ -- 22
-pop$ -- 40
+int.to.str$ -- 24
+missing$ -- 19
+newline$ -- 124
+num.names$ -- 24
+pop$ -- 42
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 132
+skip$ -- 140
 stack$ -- 0
-substring$ -- 274
-swap$ -- 69
+substring$ -- 328
+swap$ -- 71
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 36
-width$ -- 24
-write$ -- 235
+while$ -- 40
+width$ -- 26
+write$ -- 257
 (There were 3 warnings)
