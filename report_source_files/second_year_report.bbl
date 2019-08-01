@@ -21,6 +21,57 @@ A.~{Lasenby}, C.~{Doran}, and S.~{Gull}.
 \newblock {\em Philosophical Transactions of the Royal Society of London Series
   A}, 356(1737):487, Mar 1998.
 
+\bibitem{2015CQGra..32e5012K}
+Georgios~K. {Karananas}.
+\newblock {The particle spectrum of parity-violating Poincar{\'e} gravitational
+  theory}.
+\newblock {\em Classical and Quantum Gravity}, 32(5):055012, Mar 2015.
+
+\bibitem{1980PhRvD..21.3269S}
+E.~{Sezgin} and P.~{van Nieuwenhuizen}.
+\newblock {New ghost-free gravity Lagrangians with propagating torsion}.
+\newblock {\em \prd}, 21(12):3269--3280, Jun 1980.
+
+\bibitem{2002IJMPD..11..747Y}
+Hwei-Jang {Yo}, James~M. {Nester}, and W.~T. {Ni}.
+\newblock {Hamiltonian Analysis of Poincar{\'e} Gauge Theory}.
+\newblock {\em International Journal of Modern Physics D}, 11(5):747--779, Jan
+  2002.
+
+\bibitem{1990PhLA..151...12H}
+R.~D. {Hecht}, J.~{Lemke}, and R.~P. {Wallner}.
+\newblock {Tachyonic torsion shock waves in Poincar{\'e} gauge theory}.
+\newblock {\em Physics Letters A}, 151(1-2):12--14, Nov 1990.
+
+\bibitem{1984PhRvD..30.2508N}
+Ignjat~A. {Nikoli{\'c}}.
+\newblock {Dirac Hamiltonian structure of R+R$^{2}$+T$^{2}$ Poincar{\'e} gauge
+  theory of gravity without gauge fixing}.
+\newblock {\em \prd}, 30(12):2508--2520, Dec 1984.
+
+\bibitem{2018PhRvD..98b4014B}
+M.~{Blagojevi{\'c}} and B.~{Cvetkovi{\'c}}.
+\newblock {General Poincar{\'e} gauge theory: Hamiltonian structure and
+  particle spectrum}.
+\newblock {\em \prd}, 98(2):024014, Jul 2018.
+
+\bibitem{1998AcPPB..29..961C}
+Hsin {Chen}, James~M. {Nester}, and Hwei-Jang {Yo}.
+\newblock {Acausal PGT Modes and the Nonlinear Constraint Effect}.
+\newblock {\em Acta Physica Polonica B}, 29(4):961, Apr 1998.
+
+\bibitem{1983PhRvD..28.2455B}
+M.~{Blagojevi{\'c}} and I.~A. {Nikoli{\'c}}.
+\newblock {Hamiltonian dynamics of Poincar{\'e} gauge theory: General structure
+  in the time gauge}.
+\newblock {\em \prd}, 28(10):2455--2463, Nov 1983.
+
+\bibitem{1987PhRvD..35.3748B}
+M.~{Blagojevi{\'c}} and M.~{Vasili{\'c}}.
+\newblock {Extra gauge symmetries in a weak-field approximation of an
+  R+T$^{2}$+R$^{2}$ theory of gravity}.
+\newblock {\em \prd}, 35(12):3748--3759, Jun 1987.
+
 \bibitem{2019PhRvD..99f4001L}
 Yun-Cherng {Lin}, Michael~P. {Hobson}, and Anthony~N. {Lasenby}.
 \newblock {Ghost and tachyon free Poincar{\'e} gauge theories: A systematic
@@ -33,11 +84,6 @@ Yun-Cherng Lin, Michael~P. Hobson, and Anthony~N. Lasenby.
   approach v2.
 \newblock Mar 2019.
 \newblock Manuscript in preparation.
-
-\bibitem{1980PhRvD..21.3269S}
-E.~{Sezgin} and P.~{van Nieuwenhuizen}.
-\newblock {New ghost-free gravity Lagrangians with propagating torsion}.
-\newblock {\em \prd}, 21(12):3269--3280, Jun 1980.
 
 \bibitem{2014JPhCS.484a2011B}
 L.~M. {Butcher}.
@@ -82,6 +128,83 @@ W.~E.~V. {Barker}.
 \newblock {Habitable tordion worlds}.
 \newblock {Strings Gravity and Cosmology Student Conference}, 2019.
 
+\bibitem{1980PhLA...80..232M}
+A.~V. {Minkevich}.
+\newblock {Generalised cosmological friedmann equations without gravitational
+  singularity}.
+\newblock {\em Physics Letters A}, 80(4):232--234, Dec 1980.
+
+\bibitem{1984CQGra...1..651G}
+H.~{Goenner} and F.~{Mueller-Hoissen}.
+\newblock {Spatially homogeneous and isotropic spaces in theories of
+  gravitation with torsion}.
+\newblock {\em Classical and Quantum Gravity}, 1(6):651--672, Nov 1984.
+
+\bibitem{2000CQGra..17.3045M}
+A.~V. {Minkevich} and A.~S. {Garkun}.
+\newblock {Homogeneous isotropic models in the metric-affine gauge theory of
+  gravity}.
+\newblock {\em Classical and Quantum Gravity}, 17(15):3045--3054, Aug 2000.
+
+\bibitem{2003gr.qc....10060M}
+A.~V. {Minkevich}, A.~S. {Garkun}, and Yu.~G. {Vasilevski}.
+\newblock {Scalar fields superdense gravitating systems}.
+\newblock {\em arXiv e-prints}, pages gr--qc/0310060, Oct 2003.
+
+\bibitem{2007AcPPB..38...61M}
+A.~V. {Minkevich}.
+\newblock {On Gravitational Repulsion Effect at Extreme Conditions in Gauge
+  Theories of Gravity}.
+\newblock {\em Acta Physica Polonica B}, 38(1):61, Jan 2007.
+
+\bibitem{2006CQGra..23.4237M}
+A.~V. {Minkevich} and A.~S. {Garkun}.
+\newblock {Analysis of inflationary cosmological models in gauge theories of
+  gravitation}.
+\newblock {\em Classical and Quantum Gravity}, 23(12):4237--4247, Jun 2006.
+
+\bibitem{2007CQGra..24.5835M}
+A.~V. {Minkevich}, A.~S. {Garkun}, and V.~I. {Kudin}.
+\newblock {Regular accelerating universe without dark energy in Poincar{\'e}
+  gauge theory of gravity}.
+\newblock {\em Classical and Quantum Gravity}, 24(23):5835--5847, Dec 2007.
+
+\bibitem{2009PhLB..678..423M}
+A.~V. {Minkevich}.
+\newblock {Accelerating Universe with spacetime torsion but without dark matter
+  and dark energy}.
+\newblock {\em Physics Letters B}, 678(5):423--426, Aug 2009.
+
+\bibitem{2011arXiv1107.1566G}
+A.~S. {Garkun}, V.~I. {Kudin}, A.~V. {Minkevich}, and Yu.~G. {Vasilevsky}.
+\newblock {Numerical analysis of cosmological models for accelerating Universe
+  in Poincare gauge theory of gravity}.
+\newblock {\em arXiv e-prints}, page arXiv:1107.1566, Jul 2011.
+
+\bibitem{2013JCAP...03..040M}
+A.~V. {Minkevich}, A.~S. {Garkun}, and V.~I. {Kudin}.
+\newblock {On some physical aspects of isotropic cosmology in Riemann-Cartan
+  spacetime}.
+\newblock {\em Journal of Cosmology and Astro-Particle Physics}, 2013(3):040,
+  Mar 2013.
+
+\bibitem{2005NewAR..49...59P}
+Dirk {Puetzfeld}.
+\newblock {Status of non-Riemannian cosmology}.
+\newblock {\em nar}, 49:59--64, May 2005.
+
+\bibitem{2008PhRvD..78b3522S}
+Kun-Feng {Shie}, James~M. {Nester}, and Hwei-Jang {Yo}.
+\newblock {Torsion cosmology and the accelerating universe}.
+\newblock {\em \prd}, 78(2):023522, Jul 2008.
+
+\bibitem{2009JCAP...10..027C}
+Hsin {Chen}, Fei-Hung {Ho}, James~M. {Nester}, Chih-Hung {Wang}, and Hwei-Jang
+  {Yo}.
+\newblock {Cosmological dynamics with propagating Lorentz connection modes of
+  spin zero}.
+\newblock {\em jcap}, 2009(10):027, Oct 2009.
+
 \bibitem{2019arXiv190604340Z}
 Hongchao {Zhang} and Lixin {Xu}.
 \newblock {Inflation in the general Poincar\textbackslash'e gauge cosmology}.
@@ -99,12 +222,6 @@ Hwei-Jang {Yo} and James~M. {Nester}.
 \newblock {\em International Journal of Modern Physics D}, 8(4):459--479, Jan
   1999.
 
-\bibitem{2002IJMPD..11..747Y}
-Hwei-Jang {Yo}, James~M. {Nester}, and W.~T. {Ni}.
-\newblock {Hamiltonian Analysis of Poincar{\'e} Gauge Theory}.
-\newblock {\em International Journal of Modern Physics D}, 11(5):747--779, Jan
-  2002.
-
 \bibitem{fmr}
 W.~E.~V. {Barker}.
 \newblock {Friday meeting report}.
@@ -119,17 +236,5 @@ W.~E.~V. {Barker}, A.~N. {Lasenby}, M.~P. {Hobson}, and W.~J. {Handley}.
 W.~E.~V. {Barker}, A.~N. {Lasenby}, M.~P. {Hobson}, and W.~J. {Handley}.
 \newblock {Gauge theories of gravity: a dictionary}.
 \newblock {In preparation}, 2019.
-
-\bibitem{1987PhRvD..35.3748B}
-M.~{Blagojevi{\'c}} and M.~{Vasili{\'c}}.
-\newblock {Extra gauge symmetries in a weak-field approximation of an
-  R+T$^{2}$+R$^{2}$ theory of gravity}.
-\newblock {\em \prd}, 35(12):3748--3759, Jun 1987.
-
-\bibitem{1983PhRvD..28.2455B}
-M.~{Blagojevi{\'c}} and I.~A. {Nikoli{\'c}}.
-\newblock {Hamiltonian dynamics of Poincar{\'e} gauge theory: General structure
-  in the time gauge}.
-\newblock {\em \prd}, 28(10):2455--2463, Nov 1983.
 
 \end{thebibliography}

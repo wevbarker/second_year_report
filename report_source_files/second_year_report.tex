@@ -111,13 +111,17 @@
 
 \begin{multicols}{2}
 \section{Introduction}
-Thi is the second of two progress reports, and follows on from \textit{Linear gravity and energetics: nine-month report} \cite{lg}. The evolving title reflects the fact that while subject of this thesis is ostensibly \textit{theoretical cosmology}, the only emergent commonality is a class of modified gravity theories known as \textit{gauge gravities}.
+This is the second of two progress reports, and follows on from \textit{Linear gravity and energetics: nine-month report} \cite{lg}. The evolving title reflects the fact that while subject of this thesis is ostensibly \textit{theoretical cosmology}, the only emergent commonality is a class of modified gravity theories known as \textit{gauge gravities}.
 
 What follows should satisfy the following:
 
+\noindent\fbox{%
+  \parbox{0.4\textwidth}{%
 ``[\textit{The report}] \textit{should be about 2,000 words in length, and in addition to covering progress, should provide an outline of their thesis contents (i.e. a thesis plan), indicating the progress that has been made on each topic, and a timetable for completion.}''
+}%
+}
 
-Accordingly, following an unnaturally brief introduction to the field in Section \ref{context}, we detail the progress made thus-far in Section \ref{progress}, and a plan for completion in Section \ref{plan}.
+Accordingly, following a very brief introduction to the field in Section \ref{context}, we detail the progress made thus-far in Section \ref{progress}, and a plan for completion in Section \ref{plan}. Naturally, about half of \ref{progress} is already represented adequately in \cite{lg}: Sections \ref{zer} and \ref{pr1} are consequently much shorter than Section \ref{pr2} in order to avoid the beating of the dead horse. There follows an appendix detailing extra teaching commitments.
 
 All references can be found at the following public repository: \url{https://github.com/wevbarker/second_year_report}.
 \section{Context}\label{context}
@@ -125,75 +129,75 @@ Gauge gravities are popular, third-generation theories of gravity, and prime can
 
 The general idea of gauge gravity is to pick a symmetry group for spacetime itself, and then gauge it. Thus, the Poincar\'e group leads to \textit{Poincar\'e guage theory} (PGT), and the Weyl group to \textit{Weyl gauge theory} (WGT). Both theories have been in development for several decades, but WGT was recently \textit{extended} (eWGT) by Lasenby and Hobson \cite{lasenby-hobson-2016}. Beyond the field-structure of the theory, gauge gravities enjoy enormous freedom in their Lagrangia. In this context, the minimal PGT extension to GR is known as \textit{Einstein-Cartan theory} (ECT): both GR and ECT share the \textit{Einstein-Hilbert} Lagrangian structure. More generally, it is common to include all possible quadratic invariants of the gravitational field strength tensors in the Lagrangian, by analogy with Yang-Mills theory. By further insisting on parity-preservation and Ostrogradsky stability, we arrive at the nine-parameter Lagrangia of (q)PGT+ and (q)eWGT+. 
 
-All gauge gravities are readily interpreted as generalisations of the diffeomorphism gauge theory that is GR, to spacetimes with geometric qualities beyond \textit{curvature}: PGT for example introduces \textit{torsion}. It is however perfectly acceptable to recast these theories in Minkowski spacetime. Furthermore, the fundamental tensor formalism can itself be replaced in the Minkowski interpretation by the mathematical language of \textit{geometric algebra} (GA) \cite{doran-lasenby}. We term this the \textit{active multivector formalism} (AMF), as supposed to the nearly ubiquitous \textit{passive tensor formalism} (PTF). Applied to ECT, the AMF methodology results in \textit{gauge theory gravity} (GTG) \cite{1998RSPTA.356..487L}. 
+All gauge gravities are readily interpreted as generalisations of the diffeomorphism gauge theory that is GR, to spacetimes with geometric qualities beyond \textit{curvature}: PGT for example introduces \textit{torsion}, while the \textit{metric affine gauge theory} (MAG)\footnote{Which we do not consider at any point.} introduces \textit{non-metricity}. It is however perfectly acceptable to recast these theories in Minkowski spacetime. Furthermore, the fundamental tensor formalism can itself be replaced in the Minkowski interpretation by the mathematical language of \textit{geometric algebra} (GA) \cite{doran-lasenby}. We term this the \textit{active multivector formalism} (AMF), as supposed to the nearly ubiquitous \textit{passive tensor formalism} (PTF). Applied to ECT, the AMF methodology results in \textit{gauge theory gravity} (GTG) \cite{1998RSPTA.356..487L}, for which our research group is famous. 
 
 The task is thus to find a gauge gravity and action with the following properties:
 \begin{enumerate}[resume]
-  \item Quantum feasibility (QF)
-  \item Classical correspondence with GR
+  \item Quantum feasibility (QF), such as UV-completion and renormalisability, exorcism of ghosts and tachyons, and initial value determinism.
+  \item Classical correspondence with GR, and the redundancy of `extra physics' to account for cosmological observations through \textit{emergent gravitational phenomena} (EGP).
 \end{enumerate}
 
-Naturally, both conditions have been extensively studied by many authors. To our knowledge, there are four approaches to QF:
+Naturally, both conditions have been extensively studied by many authors. To our knowledge, there are broadly four approaches to QF:
 \begin{enumerate}[resume]
-  \item\label{gr} Linearised spin projecton operator (SPO) propagator test
-  \item\label{al} The \textit{positive energy test} (PET)
-  \item\label{be} Cauchy-Kovalevska and hyperbolicity conditions
-  \item\label{ga} Application of the Dirac algorithm 
+  \item\label{gr} The linearised spin projecton operator (SPO) propagator test \cite{2015CQGra..32e5012K,1980PhRvD..21.3269S}.
+  \item\label{al} The \textit{positive energy test} (PET) \cite{2002IJMPD..11..747Y}.
+  \item\label{be} Satisfaction of the Cauchy-Kovalevska and hyperbolicity conditions \cite{2002IJMPD..11..747Y}.
+  \item\label{ga} Hamiltonian analysis \cite{2015CQGra..32e5012K,1990PhLA..151...12H,1984PhRvD..30.2508N,2018PhRvD..98b4014B,1998AcPPB..29..961C,1983PhRvD..28.2455B,1987PhRvD..35.3748B}. 
 \end{enumerate}
-Most recently Lin, Hobson and Lasenby conducted a systematic study of the particle content of linearised (q)PGT+ \cite{2019PhRvD..99f4001L,Lin2}. Thirty-three classes of action were identified which could be made free of ghosts and tachyons, and which were power-counting renormalisable. This builds on earlier, limited work by Sezgin and Nieuwenhuizen \cite{1980PhRvD..21.3269S}.
+Most recently Lin, Hobson and Lasenby revived \ref{gr} and conducted a systematic study of the particle content of linearised (q)PGT+ \cite{2019PhRvD..99f4001L,Lin2}. Thirty-three classes of action were identified which could be made free of ghosts and tachyons, and which were power-counting renormalisable. This builds on earlier, limited work by Sezgin and Nieuwenhuizen \cite{1980PhRvD..21.3269S}.
 
-One dissatisfying aspect of GR, which gauge gravity is not necessarily expected to resolve, is the \textit{energy problem}: the equivalence principle prohibits the localisation of gravitational energy. As a consequence, the most famous relativists all have a gravitational stress-energy tensoid\footnote{Any object which is made to look like a covariant tensor of second rank, but isn't.} named after them. Again most recently, Butcher, Hobson and Lasenby proposed such an object for linearised GR, in which context it is a tensor \cite{2014JPhCS.484a2011B,2012PhRvD..86h4012B,2012PhRvD..86h4013B}. 
+One further dissatisfying aspect of GR, which gauge gravity is not necessarily expected to resolve, is the \textit{energy problem}: the equivalence principle prohibits the localisation of gravitational energy. As a consequence, many famous relativists have a gravitational stress-energy tensoid\footnote{Any object which is dressed to look like a covariant tensor of second rank, but isn't.} named after them. Again most recently, Butcher, Hobson and Lasenby proposed such an object for linearised GR, in which context it is a tensor \cite{2014JPhCS.484a2011B,2012PhRvD..86h4012B,2012PhRvD..86h4013B}. 
 
 \section{Progress}\label{progress}
 \subsection{Project 0}\label{zer}
 A starter project from October 2017 involved determining the gravitational field in linearised GR, of compact distributions of (possibly spinning) null waves, which cleared up some gauge ambiguities dating from the 1930s. With some marketing, this could be publishable, but it is almost certainly uncitable.
-In February 2018 the results were presented \cite{sem} at a research group seminar.
+In February 2018 these results were presented \cite{sem} at a research group seminar. See \cite{lg} and the references therein.
 \subsection{Project 1}\label{pr1}
 Early 2018 was spent attempting to generalise the Butcher energy localisation scheme \cite{2014JPhCS.484a2011B,2012PhRvD..86h4012B,2012PhRvD..86h4013B} to nonlinear GR, with the following results:
 \begin{enumerate}[resume]
-  \item\label{butcherno} By removing gauge constraints and imposing full GR, a natural generalisation of the Butcher tensor can be found to the pseudotensor of Einstein, the linearisation of which is equivalent to the butcher tensor up to an identically conserved gauge current.
+  \item\label{butcherno} By removing gauge constraints and imposing full GR, a natural generalisation of the Butcher tensor can be found to the pseudotensor of Einstein, the linearisation of which is itself equivalent to the Butcher tensor up to an identically conserved gauge current.
   \item\label{mol} The variational scheme used to obtain the Einstein pseudotensor in GR, when applied to GTG, produces the pseudotensor of M{\o}ller.
-  \item\label{conscur} The PMF suggests a recipe for constructing identically conserved currents in GTG.
-  \item\label{kg} In the PMF or Minkowski interpretation of GTG, the pseudotensors of Einstein or M{\o}ller describe gravitational stress-energy of self-gravitating spherical distributions as if the gravitational potential were a scalar (i.e. Klein-Gordon) field. When comparing this `Klein Gordon' picture with the formalism of Komar, a local virial theorem emerges.
+  \item\label{conscur} The AMF suggests a new recipe for constructing conserved currents in GTG.
+  \item\label{kg} In GTG or the Minkowski interpretation of ECT, the pseudotensors of Einstein or M{\o}ller describe gravitational stress-energy of self-gravitating spherical distributions as if the gravitational potential were a scalar (i.e. Klein-Gordon) field. When comparing this `Klein Gordon' picture with the formalism of Komar, a local virial theorem emerges. 
 \end{enumerate}
-In October 2018 the results \ref{butcherno}, \ref{mol}, \ref{conscur} and \ref{kg} were submitted to the Journal of Mathematical Physics, and they were published \cite{2019JMP....60e2504B} in May 2019 after typographical corrections.
+In October 2018 the results \ref{butcherno}, \ref{mol}, \ref{conscur} and \ref{kg} were submitted to the Journal of Mathematical Physics, and they were published \cite{2019JMP....60e2504B} in May 2019 after typographical corrections. This completes the `short term plan' detailed in \cite{lg}.
 \subsection{Project 2}\label{pr2}
-As stipulated in \cite{lg}, the intention as of June 2018 was to devote the remainder of the thesis to the nascent eWGT. Three fronts were proposed:
+As stipulated in the `long term plan' in \cite{lg}, the intention as of June 2018 was to devote the remainder of the thesis to the nascent eWGT. Three fronts were proposed:
 \begin{enumerate}[resume]
-  \item\label{staticr} Classical, spherically-symmetric eWGT field equations (stars, black holes etc.)
-  \item Spin-torsion interaction in eWGT
-  \item\label{cosm} Classical, homogeneous and isotropic eWGT field equations (cosmology)
+  \item\label{staticr} Classical, spherically-symmetric eWGT field equations (stars, black holes etc.).
+  \item Spin-torsion interaction in eWGT.
+  \item\label{cosm} Classical, homogeneous and isotropic eWGT field equations (cosmology).
 \end{enumerate}
-Following exposure to \cite{2005gr.qc.....9014L}, it was decided to pursue front \ref{cosm} as a starting point, with the following results:
+Following exposure to \cite{2005gr.qc.....9014L}, it was decided to pursue front \ref{cosm} as a starting point -- note that this falls firmly into the category of EGP. The following results were obtained:
 \begin{enumerate}[resume]
   \item Several Maple packages were developed to solve the following problems:
     \begin{enumerate}[resume]
-      \item\label{sta} Component calculations in the spacetime algebra of GA.
-      \item\label{solver} Finding, manipulating and solving the cosmological equations of (q)PGT+ and (q)eWGT+ using the minisuperspace approximation.
+      \item\label{sta} Component calculations in the spacetime algebra of GA (\textit{STA} package).
+      \item\label{solver} Finding, manipulating and solving the cosmological equations of (q)PGT+ and (q)eWGT+ using the minisuperspace approximation (\textit{tools} package).
     \end{enumerate}
-  \item\label{dec} A unique decomposition of quadratic invariants of gravitational field strengths was identified within the GA formulation of gauge gravity, which compares in a useful way with the irreducible tensor decomposition.
+  \item\label{dec} A unique decomposition of quadratic invariants of gravitational field strengths ($\{\check\alpha_i,\check\beta_j\}$ replacing $\{\alpha_i,\beta_j\}$) was identified within the AMF, which compares in a useful way with the irreducible tensor decomposition.
   \item\label{equiv} The cosmological equations were used to prove that (q)PGT+ and (q)eWGT+ span the same cosmologies.
-  \item\label{ctp} The nine parameters in the Lagrangia of (q)PGT+ and (q)eWGT+ were linearly combined into five parameters of cosmological interest, $\{a,\sigma_1,\sigma_2,\sigma_3,\upsilon_1,\upsilon_2\}$.
+  \item\label{ctp} The nine parameters in the Lagrangia of (q)PGT+ and (q)eWGT+ were linearly combined into five parameters of unique cosmological interest, $\{a,\sigma_1,\sigma_2,\sigma_3,\upsilon_1,\upsilon_2\}$.
   \end{enumerate}
-  In the opening months of 2019, some members of our research group published \cite{2019PhRvD..99f4001L} and developed the results in \cite{Lin2}.
+  Naturally, \ref{equiv} represented a significant course correction with respect to EGP. In the opening months of 2019, some members of our research group published \cite{2019PhRvD..99f4001L} and developed the results in \cite{Lin2}, which led to increased interest in finding EGP from QF-motivated theories.
   \begin{enumerate}[resume]
   \item Using the cosmic theory parameters of \ref{ctp}, the 33 critical cases identified in \cite{2019PhRvD..99f4001L,Lin2} were categorised according to their cosmology. The most promising cosmologies with the strongest QF motivation were then as follows:
     \begin{enumerate}
       \item\label{D} Setting $a=\sigma_3=\upsilon_1=0$ decouples the curvature constant, $k$, from the dynamical evolution of the universe. We term this `$k$-screening'. Remarkably, whilst the resulting system is resistant to a full analytic solution, we can show analytically and numerically that such universes have a tendency to `freeze out' into \textLambda CDM-like solutions whenever a particular cosmic fluid (e.g. dust, radiation or dark energy) becomes dominant, with implications for possible $\Lambda$-enhancement effects. We can show that the corresponding Lagrangia do \textit{not} merely reduce to conformal gravity.
-      \item\label{ek} Setting $a=\sigma_3=\sigma_2=\upsilon_1=0$ produces another $k$-screened cosmology, but the cosmological equations are precisely the flat Friedmann of GR, while torsion effects generate an emergent effective $k$. This results in `dynamically open, geometrically arbitrary' cosmologies.
+      \item\label{ek} Setting $a=\sigma_3=\sigma_2=\upsilon_1=0$ produces another $k$-screened cosmology, but the cosmological equations are precisely the flat Friedmann equations of GR, while torsion effects generate an emergent effective $k$. This results in `dynamically open, geometrically arbitrary' cosmologies.
       \item\label{inf} Setting $a=\sigma_3=\upsilon_2=\upsilon_1=0$ produces another $k$-screened cosmology which is a kind of conformal gravity, exhibiting perpetual power-law inflation. 
     \end{enumerate}
   \item\label{toy} With the apparatus of \ref{sta} and \ref{solver}, certain toy-model Lagrangia were considered without and QF motivation:
     \begin{enumerate}[resume]
-      \item We were also able to extend the work of \cite{lasenby-doran-heineke-2005}, by showing that the same cosmological equations are produced by a much wider class of Lagrangia, which take a pleasing form in the GA formulation.
+      \item We were also able to extend the work of \cite{lasenby-doran-heineke-2005}, by showing that the same cosmological equations are produced by a much wider class of Lagrangia, which take a pleasing form in the AMF.
       \item Some simple $\upsilon_1\neq 0$ theories were studied, which produce cyclic universes with periodic bangs and crunches.
   \end{enumerate}
 \end{enumerate}
 In April 2019, the results \ref{dec} and \ref{equiv}, along with the cosmological solutions \ref{ctp} and \ref{toy} were presented \cite{poster} at the \textit{Strings, Gravity and Cosmology Student Conference} in Munich.
 
-An extensive and time-consuming literature review in July 2019 identified a very significant corpus on (q)PGT+ cosmology, which was hitherto unknown to our research group, and left the following impression:
+An extensive and time-consuming literature review in July 2019 identified a very significant corpus (most especially \cite{1980PhLA...80..232M,1984CQGra...1..651G,2000CQGra..17.3045M,2003gr.qc....10060M,2007AcPPB..38...61M,2006CQGra..23.4237M,2007CQGra..24.5835M,2009PhLB..678..423M,2011arXiv1107.1566G,2013JCAP...03..040M,2005NewAR..49...59P,2008PhRvD..78b3522S,2009JCAP...10..027C}) on (q)PGT+ cosmology, which was hitherto unknown to our research group, and left the following impression:
 \begin{enumerate}[resume]
-  \item\label{field} The field is active and dominated by about ten contemporary authors, at least some of whom are aware of each others' work and variously collaborate.
+  \item\label{field} The field is active and dominated by about ten contemporary authors, at least some of whom are aware of each others' work and variously collaborate (this, based on a cursory analysis of the citation chain and certain LinkedIn profiles).
   \item\label{boring} The range of EGP in (q)PGT+ is well known, and whilst such results are quite publishable (e.g. recently, \cite{2019arXiv190604340Z}), they are unlikely to be of lasting impact.
   \item\label{QFn} Consideration of QF, rather than EGP, has driven the field since the turn of the century.
 \end{enumerate}
@@ -246,10 +250,10 @@ Clearly \ref{c4} will require the greatest amount of work. We anticipate the fol
       \item Execute the Dirac algorithm.
       \item Construct the primary Poisson matrix and find its rank and determinant.
     \end{enumerate}
-  \item\label{verify} Use \ref{alg} to verify the theory validity claims of \cite{1999IJMPD...8..459Y,2002IJMPD..11..747Y}.
-  \item Come to an informed decision, based on progress in \ref{beg}, \ref{cheat}, \ref{alg} and \ref{verify}, along with time constraints, how to proceed -- for example by picking one of:
+  \item\label{verify} Use \ref{alg} to verify the theory validity/invalidity claims of \cite{1999IJMPD...8..459Y,2002IJMPD..11..747Y}.
+  \item Come to an informed decision, based on progress in \ref{beg}, \ref{cheat}, \ref{alg} and \ref{verify}, along with time constraints, as to how to proceed -- for example by picking one of:
     \begin{enumerate}
-      \item\label{cowardice} A targeted application of \ref{alg} to the new results preferred in \cite{paper-2,2019PhRvD..99f4001L,Lin2}, followed by a continuation of easy, classical investigation to resolve \ref{sr} or \ref{reach}.
+      \item\label{cowardice} A targeted application of \ref{alg} to the new results preferred in \cite{paper-2,2019PhRvD..99f4001L,Lin2}, followed by a continuation of easy, classical EGP investigation to resolve \ref{sr} or \ref{reach}.
       \item\label{bravery} Something more ambitious, using automation to arrive at an `ultimate' instance of (q)PGT+ based on QF, or to show that no such theory exists.
     \end{enumerate}
     At this point we can propose a timeline for completion:
